@@ -1,0 +1,15 @@
+*{
+    font-family: 'Inconsolata', monospace;
+}
+h2{
+    color: green;
+}
+
+.highlight {
+    background-color: yellow;
+  }
+  
+  .error {
+    background-color: lightcoral;
+    border: red;
+  }
