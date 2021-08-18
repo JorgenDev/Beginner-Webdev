@@ -63,6 +63,7 @@ document.getElementById('start').addEventListener('click', () => {
       // end of sentence
       // Display success
       const elapsedTime = new Date().getTime() - startTime;
+        // .getTime = Miliseconds
       const message = `CONGRATULATIONS! You finished in ${elapsedTime / 1000} seconds.`;
       messageElement.innerText = message;
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
